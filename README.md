@@ -35,8 +35,8 @@ This effect is particularly noticeable in the Neuenheimer Feld as well as other 
 The urban area has been effectively identified and highlighted using the chosen NDBI method, especially when compared to the surrounding areas. In 2023, the urban area was even more clearly visible than in 2000, which could be attributed to the improved sensor quality of the satellite images. However, due to the aforementioned inaccuracies, such as generalization caused by the 30m resolution, misclassification of undeveloped fields as urban areas, and image quality, directly comparing the two images and calculating the difference in urban area would not yield reliable results.
 
 ## Literature
-- [Behnisch M, Krüger T, Jaeger JAG (2022) Rapid rise in urban sprawl: Global hotspots and trends since 1990. PLOS Sustain Transform 1(11): e0000034.](https://doi.org/10.1371/journal)
-- [Chettry, V (2023) A Critical Review of Urban Sprawl Studies. J geovis spat anal 7, 28 (2023)](https://doi.org/10.1007/s41651-023-00158-w)
-- Karanam,  H.  (2018)  STUDY  OF  NORMALIZED DIFFERENCE  BUILT-UP  (NDBI)  INDEX  IN AUTOMATICALLY  MAPPING  URBAN  AREAS  FROM LANDSAT TM  IMAGERY. International Journal of Scientific Research and Review, 7(1).
-- UN-Habitat (2022) World cities report 2022: Envisaging the Future of Cities. United Nations Human Settlements Programme (UN Habitat), Nairobi
-- Y. Zha, J. Gao & S. Ni (2003) Use of normalized difference built-up index in automatically mapping urban areas from TM imagery, International Journal of Remote Sensing, 24:3, 583-594, DOI: 10.1080/01431160304987
+- [Behnisch M, Krüger T, Jaeger JAG (2022) Rapid rise in urban sprawl: Global hotspots and trends since 1990. PLOS Sustain Transform 1(11): e0000034.](http://dx.doi.org/10.1371/journal.pstr.0000034)
+- [Chettry, V (2023) A Critical Review of Urban Sprawl Studies. J geovis spat anal 7, 28 (2023).](https://doi.org/10.1007/s41651-023-00158-w)
+- [Karanam,  H.  (2018)  STUDY  OF  NORMALIZED DIFFERENCE  BUILT-UP  (NDBI)  INDEX  IN AUTOMATICALLY  MAPPING  URBAN  AREAS  FROM LANDSAT TM  IMAGERY. International Journal of Scientific Research and Review, 7(1).](https://www.researchgate.net/publication/339230287_STUDY_OF_NORMALIZED_DIFFERENCE_BUILT-UP_NDBI_INDEX_IN_AUTOMATICALLY_MAPPING_URBAN_AREAS_FROM_LANDSAT_TM_IMAGERY)
+- [UN-Habitat (2022) World cities report 2022: Envisaging the Future of Cities. United Nations Human Settlements Programme (UN Habitat), Nairobi](https://unhabitat.org/sites/default/files/2022/06/wcr_2022.pdf)
+- [Y. Zha, J. Gao & S. Ni (2003) Use of normalized difference built-up index in automatically mapping urban areas from TM imagery, International Journal of Remote Sensing, 24:3, 583-594.](http://dx.doi.org/10.1080/01431160304987)
