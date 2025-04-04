@@ -6,7 +6,7 @@ Urbanization is a global phenomenon increasingly shaping the world’s populatio
 The goal of this work is to develop a script-based automation for calculating the difference between NDBI and NDVI, as proposed by Zha et al. (2003). Additionally, this work aims to investigate the effectiveness of this method in identifying and analyzing urban areas over time, with a particular focus on the city of Heidelberg.
 
 ## 2. Method
-To conduct the analysis, satellite images from June 9, 2000, and June 25, 2023, covering the city of Heidelberg, were obtained. Landsat 7 and 9 images were downloaded using the USGS Earth Explorer (https://earthexplorer.usgs.gov/). These images consist of multiple spectral bands, each capturing specific wavelengths of reflected light. Since different surfaces reflect light in unique patterns, satellite imagery allows for distinguishing e.g. between urban areas and vegetation-rich regions.
+To conduct the analysis, satellite images from June 9, 2000, and June 25, 2023, covering the city of Heidelberg, were obtained. Landsat 7 and 9 images were downloaded using the [USGS Earth Explorer](https://earthexplorer.usgs.gov/). These images consist of multiple spectral bands, each capturing specific wavelengths of reflected light. Since different surfaces reflect light in unique patterns, satellite imagery allows for distinguishing e.g. between urban areas and vegetation-rich regions.
 For the analysis, GRASS GIS (version 8.4) was used. First, the NDBI was calculated, with positive values indicating urban areas and negative values representing non-built-up land. Using the Near Infrared (NIR) and Short-Wave Infrared (SWIR) bands, the following formula was applied:
 
 NDBI = ( SWIR - NIR ) / ( SWIR + NIR )
