@@ -19,12 +19,14 @@ NDVI = ( NIR - Red ) / ( NIR + Red)
 The results of the analysis are represented in Fig. 1 and Fig. 2 by three distinct values: 1, 0, and -1. A value of 1 indicates urban areas, identifying built-up regions. In contrast, a value of -1 represents non-urban areas, such as vegetation or natural landscapes. A value of 0 signifies land that is neither urban nor vegetated, including the river or other surfaces that do not fall clearly into either category.
 
 ![Fig. 1: Results from Heidelberg 09.06.2000](figures/diff_bi_1_map.png "Fig. 1: Results from Heidelberg, 09.06.2000")
+
 *Fig. 1: Results from Heidelberg, 09.06.2000*
 
 The analysis reveals a general increase in both the size and density of urban areas in 2023 compared to the earlier dataset, especially in the districts Altstadt, Bahnstadt and Eppelheim. Additionally, there is a slight increase in areas classified with a value of 0, e.g. in the Pfaffengrund and Neuenheimer Feld. The results of the index are highly dependent on the chosen threshold, which determines when an area is classified as urban or vegetated. This sensitivity is particularly evident in the classification of the Neckar River, which consistently receives a value of 0 in both years. Since the river is neither vegetation nor urban, both NDBI and NDVI yield values close to zero, resulting in a final difference of 0. Consequently, the river stands out clearly in both time periods. Other areas classified with a value of 0 include some agricultural fields, barren land, and even certain settlements. These settlements appear to have reflectance values below the NDBI threshold, preventing their classification as urban, despite their built-up characteristics.
 An important factor to consider when interpreting the results is the 30-meter spatial resolution of the data, which limits the level of detail. This simplification affects the representation of many areas, particularly smaller structures or heterogeneous land uses, leading to a more generalized depiction.
 
 ![Fig. 2: Results from Heidelberg, 25.06.2023](figures/diff_bi_2_map.png "Fig. 2: Results from Heidelberg, 25.06.2023")
+
 *Fig. 2: Results from heidelberg, 25.06.2023*
 
 This effect is particularly noticeable in the Neuenheimer Feld as well as other residential areas, where large gaps appear in the classification despite being built-up areas. These spaces contain just enough vegetation to fall below both the NDBI and NDVI thresholds. As a result, they are classified as "non-vegetation" by the NDVI but also do not meet the NDBI threshold for urban areas, leading to their omission from both categories. 
